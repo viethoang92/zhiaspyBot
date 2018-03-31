@@ -34,5 +34,5 @@ async def on_message(message):
             await client.send_message(message.channel, embed=Embed(color=Color.red(), description=("The command %s is not valid!" % invoke)))
 
 
-
-client.run(TOKEN)
+token = int(os.environ.get('TOKEN', 5000)
+client.run(token)
