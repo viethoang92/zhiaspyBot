@@ -35,4 +35,4 @@ async def on_message(message):
 
 
 
-client.run(SECRETS.TOKEN)
+client.run(TOKEN)
