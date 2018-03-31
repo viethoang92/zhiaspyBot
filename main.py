@@ -1,7 +1,7 @@
 import discord
 from discord import Game, Server, Member, Embed, Color
 
-import SECRETS
+import os
 import STATICS
 from commands import cmd_ping
 
